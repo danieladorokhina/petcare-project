@@ -2,6 +2,7 @@
 
 ## Team
 - Daniela Dorokhina 
+- Olha Bidochka
 
 ## About project
 PetCare — це невеликий сайт для власників домашніх тварин.  
