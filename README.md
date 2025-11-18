@@ -21,13 +21,13 @@ PetCare — це невеликий сайт для власників дома�
 - Frontend: HTML, CSS, JavaScript
 
 ## How to run 
-git clone https://github.com/danieladorokhina/petcare-project
-cd petcare-project/backend
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+1) git clone https://github.com/danieladorokhina/petcare-project
+2) cd petcare-project/backend
+3) python3 -m venv venv
+4) source venv/bin/activate
+5) pip install -r requirements.txt
+6) python manage.py migrate
+7) python manage.py runserver
 
 ## Main endpoints
 -	POST /api/accounts/register/ — реєстрація
