@@ -19,3 +19,18 @@ PetCare — це невеликий сайт для власників дома�
 - Backend: Django REST Framework  
 - Database: SQLite  
 - Frontend: HTML, CSS, JavaScript
+
+## How to run 
+1) git clone https://github.com/danieladorokhina/petcare-project
+2) cd petcare-project/backend
+3) python3 -m venv venv
+4) source venv/bin/activate
+5) pip install -r requirements.txt
+6) python manage.py migrate
+7) python manage.py runserver
+
+## Main endpoints
+-	POST /api/accounts/register/ — реєстрація
+-	POST /api/accounts/login/ — логін
+-	GET/POST /api/pets/ — тварини
+-	GET/POST /api/appointments/ — записи
